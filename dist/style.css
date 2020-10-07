@@ -1,0 +1,88 @@
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: #fffafa;
+    color: #333333;
+    width: 100vw;
+    height: 100vh;
+}
+#top {
+    margin-bottom: 10px;
+}
+#main-img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+#message {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 20px;
+}
+#info {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 38px;
+}
+#desc {
+    text-align: center;
+    margin: 0px 10% 0px 10%;
+}
+
+#tabs {
+    width: 100vw;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabs-box {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    width: 100vw;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+#contact {
+    width: 28%;
+    height: 50px;
+    border-bottom: solid;
+}
+#menu {
+    width: 28%;
+    height: 50px;
+    border-bottom: none;
+}
+#contact:hover, #menu:hover {
+    cursor: pointer;
+    color: #a1714a;
+    transition: 1s;
+}
+.content-txt {
+    width: 90%;
+}
+.content-txt p {
+    margin: 0;
+}
+#contact-txt {
+    display:block;
+}
+#menu-txt {
+    display: none;
+}
+footer {
+    height: 87px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    /* background-color: #dba77d; */
+    background-color: rgb(17, 143, 137, .5);
+}
